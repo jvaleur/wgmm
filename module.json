@@ -1,0 +1,116 @@
+{
+  "name": "wanderers-guide-2-merchants-n-magic",
+  "id": "wanderers-guide-2-merchants-n-magic",
+  "title": "Wanderer's Guide to Merchants & Magic",
+  "description": "Everything you need to make dealing with magic items in 5E easy and fun with 23 Unique Magic Shops; 120 New Magic Items; including Price Lists; 4 Magical Adventures; Rules & Rolling Tables for trading magic items!",
+  "version": "0.8.7",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "Eventyr Games",
+  "authors": [
+    {
+      "name": "Content by: Eventyr Games",
+      "url": "https://eventyrgames.com/",
+      "patreon": "http://patreon.com/eventyr",
+      "discord server": "https://discord.gg/kbQ4AaKV",
+      "youtube": "https://www.youtube.com/channel/UC2-P_xrkt_8Vh4tQfoXdhug",
+      "twitter": "https://twitter.com/eventyrgames"
+    },
+    {
+      "name": "Conversion by: sigma Productions",
+      "discord": "Sigma Productions#5051",
+      "discord server": "https://discord.gg/aPcSDAHQYD",
+      "ko-fi": "https://ko-fi.com/sigmaproductions"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "Wanderer's Guide to Merchants & Magic",
+      "system": "dnd5e",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "actors",
+      "label": "Wanderer's Guide to Merchants & Magic",
+      "path": "/packs/actors.db",
+      "system": "dnd5e",
+      "entity": "Actor",
+      "type": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "Wanderer's Guide to Merchants & Magic",
+      "path": "/packs/journals.db",
+      "system": "dnd5e",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "Wanderer's Guide to Merchants & Magic",
+      "path": "/packs/items.db",
+      "system": "dnd5e",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "rolltables",
+      "label": "Wanderer's Guide to Merchants & Magic",
+      "path": "/packs/rolltables.db",
+      "system": "dnd5e",
+      "entity": "RollTable",
+      "type": "RollTable"
+    },
+    {
+      "name": "macros",
+      "label": "Wanderer's Guide to Merchants & Magic",
+      "path": "/packs/macros.db",
+      "system": "dnd5e",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "playlists",
+      "label": "Wanderer's Guide to Merchants & Magic",
+      "path": "/packs/playlists.db",
+      "system": "dnd5e",
+      "entity": "Playlist",
+      "type": "Playlist"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],  
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "requires": [{
+    "id": "scene-packer",
+    "type": "module",
+    "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+  }],
+  "styles": [
+    "styles/sigmaP.css"
+  ],
+  "manifest": "https://api.jsonbin.io/v3/qs/63218445e13e6063dca74b38",
+  "protected": true,
+  "manifestPlusVersion": "1.2.0",
+  "readme": "https://gitlab.com/sigmaProductions/wgtmm/-/blob/ae30910cd65385d1c0c96cf0362094f919c9cedd/README.md",
+  "bugs": "https://gitlab.com/sigmaProductions/wgtmm/-/blob/ae30910cd65385d1c0c96cf0362094f919c9cedd/KnownBugs",
+  "changelog": "https://gitlab.com/sigmaProductions/wgtmm/-/blob/ae30910cd65385d1c0c96cf0362094f919c9cedd/CHANGELOG",
+  "flags": {
+    "allowBugReporter": true
+  }
+}
